@@ -30,3 +30,10 @@ main {
 section.img {
     width: 200px;
 }
+button {
+    background-color: var(--cor0);
+    color: var(--cor4);
+    padding: 20px;
+    border-radius: 10px;
+  
+}
