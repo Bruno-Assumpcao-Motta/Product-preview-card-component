@@ -12,7 +12,11 @@
     --Fonte-padrao: 'Montserrat', sans-serif;
     --Fonte-Detalhe: 'Fraunces', serif;
 }
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -40,8 +44,7 @@ main img {
     background-color: var(--cor1);
     flex-wrap: wrap;
     padding: 20px;
-    margin: 10px;
-
+    
 }
 .container div {
     position: relative;
