@@ -13,23 +13,47 @@
     --Fonte-Detalhe: 'Fraunces', serif;
 }
 
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
-    background-color: hsl(30, 38%, 92%);
+    background-color: var(--cor1);
     width: 1440px;
 }
-main {
-    display: inline-block;
+main  h1{
+    font-size: 3em;
+}
+main img {
+    height: 500px;
+    border-radius: 10px 0px 0px 10px;
     
-    width: 600px;
+}
+
+.container {
+    
+    display: flex;
+    
+    justify-content: center;
     align-items: center;
+    background-color: var(--cor1);
+    flex-wrap: wrap;
 
 }
-section.img {
-    width: 200px;
+.container div {
+    height: 500px;
+    background-color: var(--cor4);
+    padding: 0px 20px 00px 0px ;
+    
+    border-radius: 0px 10px 10px 0px;
+    
+    
+    
 }
+.preco {
+    display: flex;
+}
+
 button {
     background-color: var(--cor0);
     color: var(--cor4);
