@@ -20,6 +20,7 @@
 body {
     background-color: var(--cor1);
     width: 1440px;
+    margin: auto;
 }
 main  h1{
     font-size: 3em;
@@ -33,31 +34,41 @@ main img {
 .container {
     
     display: flex;
-    
+    position: absolute;
     justify-content: center;
     align-items: center;
     background-color: var(--cor1);
     flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
 
 }
 .container div {
+    position: relative;
     height: 500px;
     background-color: var(--cor4);
     padding: 0px 20px 00px 0px ;
-    
+    left: 50%;
+    top: 50%;
+    transform: translate(50%, 50%);
     border-radius: 0px 10px 10px 0px;
     
     
     
 }
-.preco {
-    display: flex;
+.container div li {
+    list-style: none;
 }
+.container div li .preco-desconto {
+    color: var(--cor0);
+}
+
 
 button {
     background-color: var(--cor0);
     color: var(--cor4);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 25px;
+    text-decoration: none;
   
 }
