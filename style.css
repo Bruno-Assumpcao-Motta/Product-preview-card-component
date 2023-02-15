@@ -72,6 +72,5 @@ button {
     color: var(--cor4);
     padding: 20px;
     border-radius: 25px;
-    text-decoration: none;
-  
+    text-decoration: none;   
 }
